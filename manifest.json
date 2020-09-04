@@ -1,0 +1,19 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "Serial Monitor",
+  "description": "Tool for viewing and collecting Serial Data coming from a micro:bit",
+  "manifest_version": 2,
+  "version": "1.1.0",
+  "minimum_chrome_version": "23",
+  "permissions": ["serial","system.storage"],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "64": "icon.png"
+  }
+}
